@@ -1,0 +1,110 @@
+.form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    max-width: 400px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 100%;
+}
+
+button {
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.error {
+    color: red;
+    font-size: 14px;
+    text-align: center;
+}
+
+.login-redirect-btn {
+    margin-top: 15px;
+    background: none;
+    color: #007bff;
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.login-redirect-btn:hover {
+    color: white;
+}
+
+.social-login {
+    display: flex;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-login p {
+    margin-bottom: 10px;
+}
+
+.social-login button {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.social-login .google-btn {
+    background-color: #db4437;
+    color: white;
+}
+
+.social-login .google-btn:hover {
+    background-color: #c1351d;
+}
+
+.social-login .github-btn {
+    background-color: #333;
+    color: white;
+}
+
+.social-login .github-btn:hover {
+    background-color: #444;
+}
+
+.social-login button svg {
+    margin-right: 8px;
+}

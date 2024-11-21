@@ -1,0 +1,43 @@
+.content-container {
+    width: 90%;
+    padding: 20px;
+    margin-left: 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.landing-heading {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.landing-paragraph {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.cta-button {
+    display: inline-block;
+    /* background-color: #007bff; */
+
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    /* background-color: #0056b3; */
+}
+
+.cta-button a {
+    text-decoration: none;
+    color: white;
+}
